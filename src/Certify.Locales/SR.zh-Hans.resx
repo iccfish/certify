@@ -648,4 +648,52 @@
   <data name="Settings_EnableStatusReporting" xml:space="preserve">
     <value>启用状态报告到看板</value>
   </data>
+  <data name="ExpiryDateConverter_CertificateExpiredNHoursAgo" xml:space="preserve">
+    <value>已过期 {0} 小时</value>
+  </data>
+  <data name="ExpiryDateConverter_CertificateExpiresInNHours" xml:space="preserve">
+    <value>将于 {0} 小时后过期</value>
+  </data>
+  <data name="ManagedCertificateSettings_CertificateAuthority_Intro" xml:space="preserve">
+    <value>证书机构是有权颁发可信证书的机构。你需要在设置中为每个你计划使用的ACME证书机构注册一个账号。</value>
+  </data>
+  <data name="ManagedCertificateSettings_CertificateAuthority_Title" xml:space="preserve">
+    <value>证书机构</value>
+  </data>
+  <data name="ManagedCertificates_Tasks_PrerequestIntro" xml:space="preserve">
+    <value>(可选)你可以在证书开始申请前添加任意数量的任务:</value>
+  </data>
+  <data name="PreferredCertificateAuthority" xml:space="preserve">
+    <value>首选证书机构</value>
+  </data>
+  <data name="MainWindow_KeyExpired" xml:space="preserve">
+    <value>您的授权码已过期或不再有效。</value>
+  </data>
+  <data name="ExpiryDateConverter_CertificateExpiredNDaysAgo" xml:space="preserve">
+    <value>{0}天过期</value>
+  </data>
+  <data name="New_Contact_Tip1" xml:space="preserve">
+    <value>要申请证书，你需要在将使用的证书机构中注册账号。</value>
+  </data>
+  <data name="New_Contact_EmailError" xml:space="preserve">
+    <value>使用此邮箱地址注册账号时发生错误。确认邮箱是否有效以及网络是否正常。此功能需要对外的网络连接。</value>
+  </data>
+  <data name="New_Contact_NeedAgree" xml:space="preserve">
+    <value>请确认同意证书机构的使用条款.</value>
+  </data>
+  <data name="ManagedCertificates_Tasks_Intro" xml:space="preserve">
+    <value>任务是用来处理最新的证书或在续期前自动触发的动作.</value>
+  </data>
+  <data name="ManagedCertificates_Deployment_Intro" xml:space="preserve">
+    <value>  证书部署可以使用自动部署或自定义的部署任务(参见任务标签).</value>
+  </data>
+  <data name="Credentials_Intro" xml:space="preserve">
+    <value>在续期和部署中的API及其它资源使用需要存储凭据。 这些凭据被Windows数据保护API进行保护，并保存在本机。</value>
+  </data>
+  <data name="ManagedCertificates_Tasks_DeploymentIntro" xml:space="preserve">
+    <value>部署任务将会按照显示的顺序在标准部署过程结束后运行（参见部署页面）。任务可以在证书更新完成后立刻运行，也可以推迟（手动运行或通过计划任务运行）。可以通过拖动任务来进行任务排序。</value>
+  </data>
+  <data name="ManagedCertificateSettings_DomainsIntro" xml:space="preserve">
+    <value>从已有的网站域名绑定中选择域名或动手添加域名。这之后你可以选择申请证书或先修改要变更的选项。可以在高级页面中指定自定义CSR。</value>
+  </data>
 </root>
